@@ -3,4 +3,4 @@
 
 | name | description | it's at |
 | :--: | :---------: | :-----: |
-| pull-all | Run git pull command on all repositories. |  |
+| pull-all | Run git pull command on all repositories. | [pull-all](./pull-all) |
