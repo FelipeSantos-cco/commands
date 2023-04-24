@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for d in /home/$USER/github/* ; do
+    if [ -d "$d" ]; then
+        cd "$d"
+        echo 'Repositório: '"$d"''
+        git pull
+    fi
+done
